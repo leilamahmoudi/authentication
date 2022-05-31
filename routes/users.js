@@ -7,4 +7,9 @@ router.get("/login", (req, res) => res.render("login"));
 // Register Page
 router.get("/register", (req, res) => res.render("register"));
 
+// Regester Handel
+router.post("/register", (req, res) => {
+  const { name, email, password, password2 } = req.body;
+});
+
 module.exports = router;

@@ -4,6 +4,7 @@ const app = express();
 
 //Routes
 app.use("/", require("./routes/index"));
+//test
 
 const PORT = process.env.PORT || 5001;
 
